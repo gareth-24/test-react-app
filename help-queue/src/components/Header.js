@@ -1,11 +1,11 @@
 import React from "react";
-import ticketsImage from "./../img/tickets-image.jpg";
+import ticketsGif from "./../img/help-gif.gif";
 
 function Header(){
   return (
     <React.Fragment>
       <h1>Help Queue</h1>
-      <img src={ticketsImage} alt="An image of tickets" />
+      <img src={ticketsGif} alt="A gif of Kenan Thompson yelling for help" />
     </React.Fragment>
   );
 }
